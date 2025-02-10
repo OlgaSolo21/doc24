@@ -1,7 +1,6 @@
 {
   "name": "doctest",
   "homepage": "https://github.com/OlgaSolo21/doc24",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
