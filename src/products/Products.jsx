@@ -26,7 +26,7 @@ const Products = ({ cards, setCardDel, onCardClick, isLoading }) => {
     return (
         <section className="products">
             {isLoading && <Preloader/>}
-            <a href="/" className="buttonBack">Назад</a>
+            <a href="/doc24" className="buttonBack">Назад</a>
             <div className="products__head">
                 <h2 className="products__title">
                     {showSavedCards ? 'Избранное' : 'Все карточки'}
