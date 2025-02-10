@@ -1,0 +1,92 @@
+.cards__item {
+    display: grid;
+    position: relative;
+    grid-template-columns: minmax(min-content, max-content);
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.cards__item:hover {
+    box-shadow: rgb(48, 164, 166) 0 5px 5px;
+ }
+
+.cards__image {
+    display: block;
+    width: 282px;
+    height: 282px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cards__content {
+    max-width: 245px;
+    margin: 25px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 23px;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+    align-self: center;
+}
+
+.cards__like {
+    background-image: url("../assets/likeDisabled.svg");
+    min-width: 22px;
+    height: 19px;
+    display: block;
+    margin: 5px 5px 0;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    object-fit: cover;
+}
+
+.cards__like_active {
+    background-image: url("../assets/likeActive.svg");
+}
+
+.cards__save {
+    background-image: url("../assets/saveIcov.svg");
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    top: 10px;
+    left: 20px;
+}
+
+.cards__save_active {
+    background-image: url("../assets/savedIcon.svg");
+}
+
+.cards__trash {
+    cursor: pointer;
+    background-image: url("../assets/Trash.svg");
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    top: 20px;
+    right: 20px;
+}
+
+.cards__trash_inactive {
+    display: none;
+}
+
