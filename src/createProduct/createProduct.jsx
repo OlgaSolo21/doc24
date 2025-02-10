@@ -44,7 +44,7 @@ export default function CreateProducts({isLoading}) {
     return (
         <section className="createdCard">
             {isLoading && <Preloader/>}
-            <a href="/" className="buttonBack">Назад</a>
+            <a href="/doc24" className="buttonBack">Назад</a>
             <div className="createdCard__container">
                 <h2 className="products__title">Создайте свою уникальную карточку</h2>
                 <div className="createdCard__addCard">
