@@ -27,7 +27,7 @@ function App() {
     return (
     <>
         <Routes>
-            <Route exact path="/doc24/" element={<Home/>}/>
+            <Route exact path="/" element={<Home/>}/>
             <Route path="/products" element={
                 <Products
                     cards={ cards }
