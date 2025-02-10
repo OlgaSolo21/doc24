@@ -30,7 +30,7 @@ export default function ProductID({isLoading, setIsLoading}) {
     return (
         <section className="productID">
             {isLoading && <Preloader/>}
-            <a href="/doc24/products" className="buttonBack">Назад</a>
+            <a href="doc24/products" className="buttonBack">Назад</a>
             <div className="productID__container">
                 <div className="productID__content">
                     <h2 className="productID__title">{cardDetails?.name}</h2>
